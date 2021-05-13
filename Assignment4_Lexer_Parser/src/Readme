@@ -1,0 +1,19 @@
+Source Files:
+	1) parser.y
+	2) lexer.y
+
+Folder contains 7 test inputs, name of the input file describes type of error it contains. 
+
+To Run Use Following Commands, in the same sequence:
+	1) make
+	2) ./parser < file_name.pas
+	3) make clean
+	
+Refer image in the folder for better clarity.
+
+Eg:
+
+$ make
+$ ./parser < 1_correct_input.pas
+$ make clean
+
